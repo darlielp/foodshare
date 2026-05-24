@@ -1,15 +1,17 @@
 <?php
 class ConexaoBD {
+
     private $host = "localhost";
-    private $dbname = "projeto_final";
+    private $dbname = "foodshare";
     private $username = "root";
-    private $password = "usbw";
+    private $password = "";
 
     public function conectar() {
 
         try {
+
             $pdo = new PDO(
-                "mysql:host=$this->host;dbname=$this->dbname;charset=utf8",
+                "mysql:host={$this->host};dbname={$this->dbname};charset=utf8",
                 $this->username,
                 $this->password
             );
@@ -18,10 +20,9 @@ class ConexaoBD {
 
             return $pdo;
 
-        } catch(PDOException $e) {
-            die("Erro na conexão: " . $e->getMessage());
+        } catch (PDOException $e) {
+            die("Erro: " . $e->getMessage());
         }
     }
 }
-
 ?>
