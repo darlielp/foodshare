@@ -2,12 +2,18 @@
 <?php 
     $pagina = basename($_SERVER['PHP_SELF']); 
 ?>
+<input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+<label for="menu-toggle" class="menu-toggle-label">
+    <i class="fa-solid fa-bars"></i>
+</label>
+
 <aside class="sidebar">
 
     <!-- LOGO -->
     <div class="sidebar-logo">
-        <i class="fa-solid fa-seedling"></i>
-        <span>FoodShare</span>
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
     </div>
 
     <!-- MENU -->

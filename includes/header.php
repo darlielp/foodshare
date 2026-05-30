@@ -1,9 +1,6 @@
 <header class="navbar">
     <div class="logo">
-        <span class="logo-icon">
-            <i class="fa-solid fa-seedling"></i>
-        </span>
-        <span class="logo-text">FoodShare</span>
+        <img src="./img/logo.png" alt="">
     </div>
 
     <div class="nav-buttons">

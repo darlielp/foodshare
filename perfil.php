@@ -61,7 +61,7 @@ if (!$dadosUsuario) {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS conforme padrão das outras páginas -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -89,9 +89,6 @@ if (!$dadosUsuario) {
                     <h2><?= htmlspecialchars($dadosUsuario['nome']); ?></h2>
                     <p><?= htmlspecialchars(ucfirst($dadosUsuario['tipo_conta'])); ?></p>
                 </div>
-                <button class="btn-perfil" style="border:none; cursor:pointer; margin-left: auto;">
-                    Editar Perfil
-                </button>
             </div>
         </section>
 
