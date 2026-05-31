@@ -4,7 +4,7 @@
 
 ### Plataforma de Doação de Alimentos
 
-**Conectando quem tem excedente a quem precisa reduzindo o desperdício, combatendo a fome.**
+**Conectando quem tem excedente a quem precisa, reduzindo o desperdício e combatendo a fome.**
 
 [![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
@@ -60,6 +60,7 @@ A plataforma conecta **doadores**, restaurantes, mercados, padarias e pessoas co
 | Front-end | HTML5, CSS3 personalizado, JavaScript Vanilla |
 | Ícones | Font Awesome 6.5 |
 | Mapa | Leaflet.js |
+| Design | Figma |
 
 ---
 
