@@ -4,17 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - FoodShare</title>
-
-    <!-- CSS conforme padrão das outras páginas -->
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Biblioteca p/ icones (Font Awesome) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
 <?php 
-// inclui o topo do site (head, abertura do body, navegacao)
 include_once ('includes/header.php'); 
 ?>
 <main>
@@ -31,7 +26,7 @@ include_once ('includes/header.php');
                         Conectamos empresas com excedentes de alimentos a pessoas e instituições que precisam. 
                         Juntos, podemos reduzir o desperdício de comida e combater a fome em nossas comunidades.
                     </p>
-                    <a href="cadastro.php" class="btn-venha">Venha fazer parte</a>
+                    <a href="View/cadastro.php" class="btn-venha">Venha fazer parte</a>
 
                     <div class="stats">
                         <div class="stat-item">

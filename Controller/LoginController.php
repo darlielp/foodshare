@@ -50,7 +50,12 @@ if (password_verify($senha, $user['senha'])) {
         'tipo' => $user['tipo']
     ];
 
-    header('Location: ../View/dashboard.php');
+    // Se for Admin, vai pro Dashboard. Se não for, vai pra Doações!
+    if ($user['tipo'] === 'admin') {
+        header('Location: ../View/dashboard.php');
+    } else {
+        header('Location: ../View/doacoes.php');
+    }
 
     exit;
 
