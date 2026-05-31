@@ -2,11 +2,9 @@
 
 <img src="img/logo.png" alt="FoodShare Logo" width="180"/>
 
-# 🍃 FoodShare
-
 ### Plataforma de Doação de Alimentos
 
-**Conectando quem tem excedente a quem precisa — reduzindo o desperdício, combatendo a fome.**
+**Conectando quem tem excedente a quem precisa reduzindo o desperdício, combatendo a fome.**
 
 [![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
@@ -22,7 +20,7 @@
 
 O **FoodShare** é uma aplicação web desenvolvida como Trabalho de Conclusão de Curso (TCC), com o objetivo de facilitar a doação de alimentos entre empresas, pessoas físicas e instituições sociais.
 
-A plataforma conecta **doadores** — restaurantes, mercados, padarias e pessoas com excedente de alimentos — a **instituições receptoras** como ONGs, abrigos e cozinhas comunitárias, promovendo o reaproveitamento de alimentos e o combate à insegurança alimentar.
+A plataforma conecta **doadores**, restaurantes, mercados, padarias e pessoas com excedente de alimentos a **instituições receptoras** como ONGs, abrigos e cozinhas comunitárias, promovendo o reaproveitamento de alimentos e o combate à insegurança alimentar.
 
 ---
 
